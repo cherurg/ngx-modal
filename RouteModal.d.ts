@@ -1,5 +1,5 @@
 import { EventEmitter, ElementRef, OnDestroy, OnInit } from "@angular/core";
-import { NavigationExtras } from "@angular/router/src/router";
+import { NavigationExtras } from "@angular/router";
 import { Router, ActivatedRoute } from "@angular/router";
 export declare class RouteModal implements OnInit, OnDestroy {
     private router;
